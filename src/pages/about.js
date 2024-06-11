@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 export const AboutPage = () => {
   return (
@@ -11,11 +12,6 @@ export const AboutPage = () => {
   );
 };
 
-export const Head = () => (
-  <>
-    <title>About Me</title>
-    <meta name="decription" content="Talga portal" />
-  </>
-);
+export const Head = () => <Seo title="About Me" />;
 
 export default AboutPage;
